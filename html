@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css"> 
+a { text-decoration:none } 
+</style> 
+
+<style>
+    
+    body {
+  background-color: white;
+}
+
+    a.ex1:hover, a.ex1:active {background: gray; color: black;}
+    
+    h2.solid{
+    border-style: solid;
+    padding: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+   ;
+    }
+    
+    a:hover {
+        background-color: silver;
+       display: block;
+       padding: 10px;
+    }
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+    font-family: 'Noto Serif', serif;
+}
+
+/* Style the header */
+header {
+  background-color: beige;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: dimgray;
+    font-family: 'Major Mono Display', monospace;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 13%;
+  height: 350px; /* only for demonstration, should be removed */
+  background: ivory
+      ;
+  padding: 20px;
+  font-family: 'Noto Serif SC', serif;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 87%;
+  background-color: #f1f1f1;
+  height: 350px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: gainsboro;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+    
+  
+    
+    
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2 class="solid">Paul Klee's Gallery</h2>
+  
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><b><u>Biography</u></b></li>
+    </ul>
+  </nav>
+  
+  <article>
+      <h1><a class="ex1" href="https://en.wikipedia.org/wiki/Paul_Klee"><font color="black">Paul Klee(1879-1940)</font></a></h1>
+    
+    <p>Movement-Expressionism</p>
+    <br>
+    <p>Paul Klee was born on 18 December 1879 near Bern in Switzerland into the family of Hans Klee, a music teacher, and his wife Maria Frick, also a musician. As a boy Paul learned to play violin. As well as his training in music, he received a thorough classical education in the Literarschule in Bern. Ancient Greek, modern French, classic and contemporary French and German art, and literature were his favorites.</p>
+  </article>
+</section>
+
+<section>
+  <nav>
+    <ul>
+      <li><b><u>Artwork1</u></b></li>
+    </ul>
+  </nav>
+  
+  <article>
+   <div>
+    <h1>Monument in Fertile Country<span style="color: slategray">(1929)</span></h1>
+      <a href="https://www.freeart.com/gallery/k/klee/klee17.html"><img src="https://201610446.github.io/Gallery1/pic1.jpg" alt="Trulli" width="200" height="200" ></a>
+   <p>Watercolor. 46 x 30.5 cm. Paul Klee Foundation, <span style="color: slategray">Kunstmuseum, Berne, Switzerland.</span></p>
+   </div>
+  </article>
+  
+</section>
+
+
+<section>
+  <nav>
+    <ul>
+      <li><b><u>Artwork2</u></b></li>
+    </ul>
+  </nav>
+  
+  <article>
+   <div>
+    <h1>Fire in the Evening<span style="color: slategray">(1929)</span></h1>
+    <a href="https://www.freeart.com/gallery/k/klee/klee18.html"><img src="https://201610446.github.io/Gallery1/pic4.jpg" alt="Trulli" width="200" height="200" ></a>
+      <p>Oil on board. 37 x 36 cm. Paul Klee Foundation, <span style="color: slategray">The Museum of Modern Arts, New York, NY, USA.</span></p>
+      </div>
+  </article>
+  
+</section>
+
+
+<section>
+  <nav>
+    <ul>
+      <li><b><u>Artwork3</u></b></li>
+    </ul>
+  </nav>
+  
+  <article>
+   <div>
+    <h1>Individualized Altimetry of Stripes<span style="color: slategray">(1930)</span></h1>
+    <a href="https://www.freeart.com/gallery/k/klee/klee35.html"><img src="https://201610446.github.io/Gallery1/pic3.jpg" alt="Trulli" width="200" height="200" ></a>
+      <p>Pastel fixed with flour paste. 18 1/2 x 25 1/8". Paul Klee Foundation, <span style="color: slategray">Kunstmuseum, Berne, Switzerland.</span></p>
+      </div>
+  </article>
+  
+</section>
+
+
+
+
+
+<footer>
+  <p>Paul Klee</p>
+</footer>
+
+</body>
+</html>
+
